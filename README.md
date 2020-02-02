@@ -1,6 +1,6 @@
 # useQueryString
 
-### 🙋‍♂️ Made by [@frankdilo](https://twitter.com/frankdilo)
+#### 🙋‍♂️ Made by [@frankdilo](https://twitter.com/frankdilo)
 
 ## Install
 
@@ -12,9 +12,9 @@ yard add use-query-string
 ## Basic usage
 
 ```jsx
-import useQueryString from 'use-query-string';
+import useQueryString from "use-query-string";
 
-const username = useQueryString('username');
+const username = useQueryString("username");
 ```
 
 ## Transformers
@@ -24,7 +24,7 @@ Transformers allow you to modify the value you get from `useQueryString`. They a
 Here is an example:
 
 ```jsx
-import useQueryString from 'use-query-string';
+import useQueryString from "use-query-string";
 
-const id = useQueryString('id', parseInt);
+const id = useQueryString("id", parseInt);
 ```
